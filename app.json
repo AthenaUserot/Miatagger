@@ -1,6 +1,6 @@
 {
-  "name": "Lounge Tagger Bot",
-  "logo":"https://telegra.ph/file/dfa517fd00b6aca5f7ac9.jpg",
+  "name": "Mia Tagger Bot",
+  "logo":"https://telegra.ph/file/702c13aef674db758cc46.jpg",
   "description": "Lounge tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
     "TOKEN": {
