@@ -1,7 +1,7 @@
 {
   "name": "Mia Tagger Bot",
   "logo":"https://telegra.ph/file/702c13aef674db758cc46.jpg",
-  "description": "Lounge tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
+  "description": "Mia tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
     "TOKEN": {
       "description": "bot token girin.",
