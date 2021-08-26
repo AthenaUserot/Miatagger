@@ -1,7 +1,7 @@
 {
-  "name": "Mia Tagger Bot",
+  "name": "Limy Tagger Bot",
   "logo":"https://telegra.ph/file/702c13aef674db758cc46.jpg",
-  "description": "Mia tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
+  "description": "Limy tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
     "TOKEN": {
       "description": "bot token girin.",
@@ -9,11 +9,11 @@
     },
     "APP_ID": {
       "description": "@otomytelegrambot dan api hash api id alınız.",
-      "value": ""
+      "value": "7172321"
     },
     "API_HASH": {
       "description": "@otomytelegrambot dan api hash api id alınız.",
-      "value": ""
+      "value": "eb2249ef5b8b7cee10c7cc1d1c71498d"
     }
   },
   "buildpacks": [{
