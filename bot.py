@@ -29,7 +29,7 @@ async def start(event):
                     buttons=(
                       [Button.url('➕ Beni Bir Gruba Ekle ➕', 'https://t.me/miataggerbot?startgroup=a'),
                       Button.url('👨‍🔧 Support', 'https://t.me/athenasupport'),
-                      Button.url('👨‍💻 Sahibim', 'https://t.me/wiperowner')]
+                      Button.url('👨‍💻 Sahibim', 'https://t.me/haklisintugce')]
                     ),
                     link_preview=False
                    )
@@ -40,7 +40,7 @@ async def help(event):
                     buttons=(
                       [Button.url('➕ Beni Bir Gruba Ekle ➕', 'https://t.me/miataggerbot?startgroup=a'),
                        Button.url('👨‍🔧 Support', 'https://t.me/athenasupport'),
-                      Button.url('👨‍💻 Sahibim', 'https://t.me/wiperowner')]
+                      Button.url('👨‍💻 Sahibim', 'https://t.me/haklisintugce')]
                     ),
                     link_preview=False
                    )
@@ -106,5 +106,5 @@ async def mentionall(event):
         usrtxt = ""
 
 
-print(">> Bot çalıyor merak etme 👨‍💻 @wiperowner sahibinden bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 👨‍💻 @wiperowner Geliştiricimden bilgi alabilirsin <<")
 client.run_until_disconnected()
