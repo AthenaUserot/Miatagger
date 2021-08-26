@@ -25,7 +25,7 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**MiaTagger Bot**, Grup veya kanalda senin yerine kişileri etiketleye bilirim. \nDaha fazla bilgi için **/help**'i tıklayın.",
+  await event.reply("**LimyTagger Bot**, Grup veya kanalda senin yerine kişileri etiketleye bilirim. \nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
                       [Button.url('➕ Beni Bir Gruba Ekle ➕', 'https://t.me/miataggerbot?startgroup=a'),
                       Button.url('👨‍🔧 Support', 'https://t.me/athenasupport'),
@@ -35,7 +35,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Miatagger bot Yardım**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Merhaba!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
+  helptext = "**Limytagger bot Yardım**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Merhaba!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('➕ Beni Bir Gruba Ekle ➕', 'https://t.me/miataggerbot?startgroup=a'),
